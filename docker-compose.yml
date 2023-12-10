@@ -1,0 +1,8 @@
+services:
+  kameleon-task:
+    image: nermax/kameleon-task
+    environment:
+      SPRING_DATASOURCE_USERNAME: username
+      SPRING_DATASOURCE_PASSWORD: password
+    ports:
+      - 8292:8080
